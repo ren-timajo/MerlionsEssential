@@ -16,6 +16,7 @@
         margin: 0;
         box-sizing: border-box;
         font-family: "Poppins", sans-serif;
+        
     }
     body {
         height: 100vh;
@@ -78,6 +79,10 @@
     a {
         color: white;
         text-decoration: none;
+    }
+
+    #button {
+        margin: 0 10px;
     }
 </style>
 </head>
@@ -186,10 +191,16 @@ img9.src = "Sharpener.jpg"
 img10 = new Image ()
 img10.src = "WhiteboardMarker.jpg"
 
-text1 = "Basic Computer Concepts"
-text2 = "Word Processing"
-text3 = "My Company"
-text4 = "Electronic Spreadsheet"
+text1 = "Ballpen.jpg"
+text2 = "BondPaper.jpg"
+text3 = "ColoredPaper.jpg"
+text4 = "Eraser.jpg"
+text5 = "Pencil.jpg"
+text6 = "WhiteGlue.jpg"
+text7 = "YellowPad.jpg"
+text8 = "Ruler.jpg"
+text9 = "Sharpener.jpg"
+text10 = "WhiteboardMarker.jpg" 
 
 function slideshowUp()
 {
@@ -204,7 +215,7 @@ function slideshowBack()
 {
 num=num-1
 if (num==0)
-{num=4}
+{num=10}
 document.mypic.src=eval("img"+num+".src")
 document.joe.burns.value=eval("text"+num)
 }
