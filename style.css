@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(45deg, #006a25, #a7951d, #a8e063);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    position: relative;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 7%;
+    margin: 5% 0;
+  }
+
+  .form-section {
+    margin-bottom: 20px;
+  }
+
+  label {
+
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    resize: none; /* Disable resizing */
+  }
+
+  input[type="submit"] {
+    background: #1a6f04;;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+
+  input[type="submit"]:hover {
+    background: #34bb12;
+  }
+  
+  select {
+    appearance: none;
+    background-color: white;
+    background-image: url("dropdown-arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  
+  select option {
+    padding: 5px;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
+      position: absolute;
+      right: 40px;
+      bottom: 30px;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  .container2 {
+    position: absolute;
+    text-align: center;
+    line-height: 50%;
+    top: 40px;
+    left: 100%;
+    width: 112.2%;
+    font-size: 20px;
+  }
+
+  #lugu {
+      width: 230px;
+      height: 230px;
+      border-radius: 500px;
+      border: 6px solid #67989a;
+  }
+
+  .desc {
+    margin: 30px auto;
+    line-height: 40px;
+    max-height: 400px;
+    padding: 30px 10px;
+    width: 600px;
+    text-align: justify;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    overflow-y: auto;
+}
+
+.container2 h3, .desc {
+  color: #333;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #8f8d8d;
+  border-radius: 10px;
+}
+
+#gcash {
+  border: 1px solid red;
+}
+
+.proof {
+  margin-top: 20px;
+  position: relative;
+  height: 132px;
+}
+
+#cess {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3px;
+  border: 1px solid #bbb9b9;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  background: #1a6f04;;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#cess:hover {
+  text-decoration: none;
+  background: #34bb12;
+}
+
+.pay {
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
