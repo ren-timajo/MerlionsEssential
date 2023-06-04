@@ -1,8 +1,3 @@
-<?php
-    session_start();
-    session_unset();
-?>
-
 <!doctype html>
 <html>
 <head>
